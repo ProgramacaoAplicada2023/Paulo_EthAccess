@@ -7,38 +7,8 @@
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:local="clr-namespace:EthConsult"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Window.Resources>
-        <local:PackIcon x:Key="PackIconImageSourceConverter" />
-    </Window.Resources>
+        Title="MainWindow" Height="600" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="5" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="30" />
-            <RowDefinition Height="5" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="5" />
-        </Grid.ColumnDefinitions>
-        <Image Source="{Binding Source={x:Static iconPacks:PackIconBootstrapIconsKind.Wallet}, Converter={StaticResource Pack}}"
-        <mah:PackIcon Width="32" Height="32">
-            <iconPacks:PackIconBootstrapIcons Kind="Wallet"/>
-        </mah:PackIcon>
-        <!--<Image Grid.Row="1" Grid.Column="1">
-            <Image.Source>
-                <iconPacks:PackIconMaterial Width="22"
-                                  Height="22"
-                                  Kind="Abacus"/>
-            </Image.Source>
-        </Image>-->
-        <Button Foreground="White" Background="DimGray" Grid.Row="2" Grid.Column="2">
-        
-        </Button>
-        <!--<Button Click="DeployCupCakes" Content="Deploy CupCakes">-->
+        <Frame x:Name="frame" Grid.Column="1" Grid.Row="1"/>
     </Grid>
 </Window>

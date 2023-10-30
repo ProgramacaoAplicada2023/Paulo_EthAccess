@@ -8,9 +8,9 @@ namespace EthConsult.Classes
 {
     internal class User
     {
-        private string login { get; set; }
-        private string password { get; set; }
-        private List<string> wallets { get; set; }
+        public string login { get; set; }
+        public string password { get; set; }
+        public List<string> wallets { get; set; }
 
         
     }

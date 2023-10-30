@@ -1,0 +1,45 @@
+﻿<Page x:Class="EthConsult.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EthConsult"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="LoginPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+
+            <RowDefinition Height="5" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="5" />
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="grid" Background="Snow" Grid.ColumnSpan="10" Grid.RowSpan="100"/>
+        <Image Source="VisualResources/Ethereum-Logo.png" Grid.ColumnSpan="3" Margin="-71,-5,20,0" Grid.RowSpan="12"/>
+        <TextBlock Text="Insira seu Login" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" FontWeight="DemiBold"/>
+        <TextBox x:Name="login" Grid.Row="3" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" Text="Username" FontSize="15" FontWeight="DemiBold" Foreground="LightGray" GotFocus="InsertInfo" LostFocus="ResetText"/>
+        <TextBox x:Name="passwordText" Grid.Row="5" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" Text="Password" FontSize="15" FontWeight="DemiBold" Foreground="LightGray" GotFocus="InsertInfo"/>
+        <PasswordBox x:Name="passwordBox" Grid.Row="5" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" FontSize="15" FontWeight="DemiBold" Foreground="Black" LostFocus="ResetText" GotFocus="InsertInfo" Visibility="Hidden"/>
+        <Button Foreground="Snow" Background="DimGray" Grid.Row="7" Grid.Column="3" Content="Login" Click="Login"/>
+        <TextBlock Text="Não Possui Conta?" Grid.Row="8" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" FontWeight="DemiBold"/>
+        <Button Foreground="Snow" Background="DimGray" Grid.Row="9" Grid.Column="3" Content="SignUp" Click="SignIn"/>
+    </Grid>
+</Page>

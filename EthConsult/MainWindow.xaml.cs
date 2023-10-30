@@ -15,14 +15,19 @@ using System.Windows.Shapes;
 
 namespace EthConsult
 {
-    
-
-
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+            frame.Content = Pages.loginPage;
+            Pages.mainWindow = this;
+        }
+
+        public void SwitchPage(object newPage)
+        {
+            frame.Content = newPage;
         }
     }
 }

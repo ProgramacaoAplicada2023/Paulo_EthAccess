@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "TpgPZPpe1Kw1nCGDkQEsjFqaAkG8uLluMx5TXxsU22FaOIyccYd77rHpLpSYK2jDSL4JMxWyz17HL2Pln+A5Fw==",
+  "dgSpecHash": "L+qnrnCkDme1mr74G5MDnQHyxWKAsHIK+/pRvyvAYdEllHdUyyZtNw/PX/FzBsAC+mRffMEr2YkQR9ysO98aNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\showd\\source\\repos\\EthConsult\\EthConsult.csproj",
+  "projectFilePath": "C:\\Users\\joao.silva\\Source\\Repos\\ProgramacaoAplicada2023\\Paulo_EthAccess\\EthConsult\\EthConsult.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\showd\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
-    "C:\\Users\\showd\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
-    "C:\\Users\\showd\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512",
-    "C:\\Users\\showd\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
-    "C:\\Users\\showd\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
-    "C:\\Users\\showd\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\showd\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\showd\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\joao.silva\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\joao.silva\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
+    "C:\\Users\\joao.silva\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512",
+    "C:\\Users\\joao.silva\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\joao.silva\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\joao.silva\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\joao.silva\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\joao.silva\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

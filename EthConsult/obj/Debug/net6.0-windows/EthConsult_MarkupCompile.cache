@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\showd\source\repos\EthConsult\obj\Debug\net6.0-windows\
+C:\Users\joao.silva\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\
 EthConsult
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\showd\source\repos\EthConsult\App.xaml
-11407045341
+C:\Users\joao.silva\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\App.xaml
+3-39242237
 
-5-32386262
-2331217659565
-MainWindow.xaml;
+81580174796
+233-625969832
+LoginPage.xaml;MainWindow.xaml;SignInPage.xaml;
 
 False
 
