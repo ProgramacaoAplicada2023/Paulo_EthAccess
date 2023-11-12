@@ -20,8 +20,11 @@ A função principal do aplicativo é tornar a rede Ethereum mais acessível, si
 ### Tutorial
 Na primeira página o usuáro deve fazer o login caso já tenha um ou selecionar a opção de criar uma nova conta.
 O login só será aceito caso haja um cadastro válido na base de dados.
+
 ![CLASS](Tutorial/Login.png)
+
 Para criar uma nova conta o usuário deve preencher as informações necessárias para a criação da conta.
+
 ![CLASS](Tutorial/Cadastro.png)
 
 Na tela do usuário temos a opção de adicionar mais uma wallet ou de transferir saldo entre contas (já cadastradas ou não).
