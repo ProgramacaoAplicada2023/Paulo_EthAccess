@@ -39,9 +39,9 @@
         <TextBlock Text="Insira suas informações" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" FontWeight="DemiBold"/>
         <TextBox x:Name="login" Grid.Row="4" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" Text="Username" FontSize="15" FontWeight="DemiBold" Foreground="LightGray" GotFocus="InsertInfo" LostFocus="ResetText"/>
         <TextBox x:Name="passwordText" Grid.Row="6" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" Text="Password" FontSize="15" FontWeight="DemiBold" Foreground="LightGray" GotFocus="InsertInfo"/>
-        <PasswordBox x:Name="passwordBox" Grid.Row="7" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" FontSize="15" FontWeight="DemiBold" Foreground="Black" LostFocus="ResetText" GotFocus="InsertInfo" Visibility="Hidden"/>
+        <PasswordBox x:Name="passwordBox" Grid.Row="6" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" FontSize="15" FontWeight="DemiBold" Foreground="Black" LostFocus="ResetText" GotFocus="InsertInfo" Visibility="Hidden"/>
         <TextBox x:Name="nome" Grid.Row="8" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" Text="Seu Nome" FontSize="15" FontWeight="DemiBold" Foreground="LightGray" GotFocus="InsertInfo" LostFocus="ResetText"/>
-        <TextBlock Text="Insira suas wallets" Grid.Row="10" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" FontWeight="DemiBold"/>
+        <TextBlock Text="Insira sua Wallet Principal" Grid.Row="10" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" FontWeight="DemiBold"/>
         <TextBox x:Name="wallet" Grid.Row="12" Grid.Column="3" BorderThickness="3" Background="Snow" BorderBrush="DimGray" Text="Wallet" FontSize="15" FontWeight="DemiBold" Foreground="LightGray" GotFocus="InsertInfo" LostFocus="ResetText"/>
         <Button Foreground="Snow" Background="DimGray" Grid.Row="14" Grid.Column="3" Content="SignUp" Click="SignIn"/>
     </Grid>

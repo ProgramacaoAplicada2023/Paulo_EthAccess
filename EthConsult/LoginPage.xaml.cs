@@ -1,5 +1,8 @@
-﻿using System;
+﻿using EthConsult.Classes;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +26,7 @@ namespace EthConsult
         SolidColorBrush userInputColor;
         SolidColorBrush idleColor;
         string lastFocus = "";
+        LoginFunctions loginFunctions = new LoginFunctions();
 
         public LoginPage()
         {
@@ -104,7 +108,28 @@ namespace EthConsult
 
         private void Login(object sender, RoutedEventArgs e)
         {
+            //Confere se o usuário existe
+            string content = File.ReadAllText(Eth.filePath);
 
+            if (loginFunctions.VerifyUser(login.Text, content))
+            {
+                MessageBox.Show("Usuário não existente!");
+                return;
+            }
+
+            //Verifica se a senha está correta
+            List<User> users = JsonConvert.DeserializeObject<List<User>>(content);
+            User tryingUser = users.Find(x => x.login == login.Text);
+
+            if (tryingUser.password != passwordBox.Password)
+            {
+                MessageBox.Show("Senha incorreta!");
+                return;
+            }
+            Eth.loggedUser = tryingUser;
+
+            //Muda para a página principal
+            Pages.mainWindow.SwitchPage(Pages.mainPage);
         }
 
         private void SignIn(object sender, RoutedEventArgs e)

@@ -8,7 +8,8 @@ namespace EthConsult.Classes
 {
     internal class Eth
     {
-        private string infuraKey = "4dc468ed76354f90b1de9c69d9f85dac";
-        
+        public static string infuraKey = "4dc468ed76354f90b1de9c69d9f85dac";
+        public static string filePath = "userBase.txt";
+        public static User? loggedUser = null;
     }
 }

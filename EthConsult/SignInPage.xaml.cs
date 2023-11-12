@@ -1,7 +1,11 @@
 ﻿using EthConsult.Classes;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection.Metadata;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +27,7 @@ namespace EthConsult
         SolidColorBrush userInputColor;
         SolidColorBrush idleColor;
         string lastFocus = "";
+        LoginFunctions loginFuncs = new LoginFunctions();
 
         public SignInPage()
         {
@@ -125,9 +130,37 @@ namespace EthConsult
             }
         }
 
+        //Evento do botão
         private void SignIn(object sender, RoutedEventArgs e)
         {
+            //Confere se o usuário existe
+            string content = String.Empty;
+            if (File.Exists(Eth.filePath))
+            {
+                content = File.ReadAllText(Eth.filePath);
+            }
+            
+            if (!loginFuncs.VerifyUser(login.Text, content))
+            {
+                MessageBox.Show("Usuário já existente!");
+                return;
+            }
 
+            //Insere o usuário novo
+            User signUpUser = new User
+            {
+                login = login.Text,
+                password = passwordBox.Password,
+                name = login.Name,
+                wallets = new List<string> { wallet.Text }
+            };
+            if (!loginFuncs.InsertUser(content, signUpUser))
+            {
+                return;
+            }
+
+            MessageBox.Show("Usuário cadastrado com sucesso!\nFaça o login na página a seguir.");
+            Pages.mainWindow.SwitchPage(Pages.loginPage);
         }
     }
 }

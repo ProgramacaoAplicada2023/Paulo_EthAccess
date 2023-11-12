@@ -18,6 +18,7 @@ namespace EthConsult
         public static MainWindow mainWindow { get; set; }
         public static LoginPage loginPage = new LoginPage();
         public static SignInPage signInPage = new SignInPage();
+        public static MainPage mainPage = new MainPage();
         #endregion
     }
 }

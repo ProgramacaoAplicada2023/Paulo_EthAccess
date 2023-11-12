@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L+qnrnCkDme1mr74G5MDnQHyxWKAsHIK+/pRvyvAYdEllHdUyyZtNw/PX/FzBsAC+mRffMEr2YkQR9ysO98aNQ==",
+  "dgSpecHash": "xuLIRJpsqr1purSPL+qFlvMSxZ2ehMDl5xeWO0E/5uRenPGwzEENA6z8C+VnWV7kg25362PA2pWrK6hywbXROg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.silva\\Source\\Repos\\ProgramacaoAplicada2023\\Paulo_EthAccess\\EthConsult\\EthConsult.csproj",
+  "projectFilePath": "C:\\Users\\joao.silva\\source\\repos\\ProgramacaoAplicada2023\\Paulo_EthAccess\\EthConsult\\EthConsult.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.silva\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\joao.silva\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",

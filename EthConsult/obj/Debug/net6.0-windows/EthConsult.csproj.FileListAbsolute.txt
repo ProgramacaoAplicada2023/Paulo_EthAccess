@@ -128,3 +128,5 @@ C:\Users\joao.silva\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthCons
 C:\Users\joao.silva\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\LoginPage.baml
 C:\Users\joao.silva\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\SignInPage.g.cs
 C:\Users\joao.silva\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\SignInPage.baml
+C:\Users\joao.silva\source\repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\MainPage.g.cs
+C:\Users\joao.silva\source\repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\MainPage.baml
