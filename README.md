@@ -20,9 +20,12 @@ A função principal do aplicativo é tornar a rede Ethereum mais acessível, si
 ### Tutorial de Instalação
 
 A linguagem visual utilizada foi o XAML.
-O aplicativo roda no Sistema Operacional Windows, o arquivo executável é encontrado na pasta "EthConsult\bin\Release\net6.0-windows" do projeto.
-Caso o executável não esteja disponível ele pode ser gerado utilizando a IDE Visual Studio utilizando as bibliotecas de desenvolvimento em .NET e C#. 
-Pode ser que na primeira utilização seja necessário instalar o .NET Framework, caso sim instale-o e execute o programa novamente.
+
+1 - O aplicativo roda no Sistema Operacional Windows, o arquivo executável é encontrado na pasta "EthConsult\bin\Release\net6.0-windows" do projeto.
+
+2 - Caso o executável não esteja disponível ele pode ser gerado utilizando a IDE Visual Studio utilizando as bibliotecas de desenvolvimento em .NET e C#. 
+
+3 - Pode ser que na primeira utilização seja necessário instalar o .NET Framework, caso sim instale-o e execute o programa novamente.
 
 ### Tutorial de Utilização
 Na primeira página o usuáro deve fazer o login caso já tenha um ou selecionar a opção de criar uma nova conta.
