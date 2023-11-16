@@ -109,7 +109,7 @@ namespace EthConsult
         private void Login(object sender, RoutedEventArgs e)
         {
             //Confere se o usuário existe
-            string content = File.ReadAllText(Eth.filePath);
+            string content = File.ReadAllText(AppConfigs.filePath);
 
             if (loginFunctions.VerifyUser(login.Text, content))
             {
@@ -126,10 +126,11 @@ namespace EthConsult
                 MessageBox.Show("Senha incorreta!");
                 return;
             }
-            Eth.loggedUser = tryingUser;
+            AppConfigs.loggedUser = tryingUser;
 
             //Muda para a página principal
             Pages.mainWindow.SwitchPage(Pages.mainPage);
+            Pages.mainPage.ShowBalances(AppConfigs.loggedUser);
         }
 
         private void SignIn(object sender, RoutedEventArgs e)

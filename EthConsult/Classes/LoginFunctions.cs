@@ -41,21 +41,50 @@ namespace EthConsult.Classes
             {
                 users.Add(signUpUser);
 
-                //Cria um arquivo temporario e reescreve o original
-                File.Create("temp" + Eth.filePath).Close();
-                File.WriteAllText("temp" + Eth.filePath, JsonConvert.SerializeObject(users));
-                if (File.Exists(Eth.filePath))
-                {
-                    File.Delete(Eth.filePath);
-                }
-                File.Copy("temp" + Eth.filePath, Eth.filePath);
-                File.Delete("temp" + Eth.filePath);
+                CreateFile(AppConfigs.filePath, users);
 
                 return true;
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Não foi possível inserir o usuário.\n\nCódigo do erro:\n" + ex.Message);
+                return false;
+            }
+        }
+
+        //Cria um arquivo temporario e reescreve o original
+        private void CreateFile(string filePath, List<User> userList)
+        {
+            File.Create("temp" + AppConfigs.filePath).Close();
+            File.WriteAllText("temp" + AppConfigs.filePath, JsonConvert.SerializeObject(userList));
+            if (File.Exists(AppConfigs.filePath))
+            {
+                File.Delete(AppConfigs.filePath);
+            }
+            File.Copy("temp" + AppConfigs.filePath, AppConfigs.filePath);
+            File.Delete("temp" + AppConfigs.filePath);
+        }
+
+        //Faz o update caso alguma informação na lista de usuários mude
+        public bool UpdateUser(User updateUser, string fileContent = "")
+        {
+            if (fileContent == "")
+            {
+                fileContent = AppConfigs.filePath;
+            }
+
+            List<User> users = new List<User>();
+            users.RemoveAll(x => x.login == updateUser.login);
+            users.Add(updateUser);
+
+            try
+            {
+                CreateFile(AppConfigs.filePath, users);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Não foi possível fazer o update do usuário.\n\nCódigo do erro:\n" + ex.Message);
                 return false;
             }
         }

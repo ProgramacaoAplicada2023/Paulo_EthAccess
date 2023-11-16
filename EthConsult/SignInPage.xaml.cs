@@ -135,9 +135,9 @@ namespace EthConsult
         {
             //Confere se o usuário existe
             string content = String.Empty;
-            if (File.Exists(Eth.filePath))
+            if (File.Exists(AppConfigs.filePath))
             {
-                content = File.ReadAllText(Eth.filePath);
+                content = File.ReadAllText(AppConfigs.filePath);
             }
             
             if (!loginFuncs.VerifyUser(login.Text, content))
