@@ -16,6 +16,9 @@
     <Compile Update="SignInPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Transfer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="LoginPage.xaml">
@@ -28,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SignInPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Transfer.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

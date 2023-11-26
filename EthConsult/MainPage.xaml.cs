@@ -14,17 +14,22 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EthConsult.Classes;
 using Nethereum.Web3;
+using Newtonsoft.Json;
 
 namespace EthConsult
 {
-    /// <summary>
-    /// Interação lógica para MainPage.xam
-    /// </summary>
+    public class KeyBalance
+    {
+        public string Key { get; set; }
+        public decimal Balance { get; set; }
+    }
+
     public partial class MainPage : Page
     {
         Web3 web3 = new Web3(AppConfigs.infuraLink);
         LoginFunctions loginFunctions = new LoginFunctions();
-        List<(string Key, decimal Balance)> balances = new List<(string Key, decimal Balance)>();
+
+        List<KeyBalance> balances = new List<KeyBalance>();
 
         public MainPage()
         {
@@ -36,27 +41,32 @@ namespace EthConsult
         {
             balances.Clear();
 
-            foreach (var key in showUser.wallets)
-            {
-                decimal tempBalance = 0;
-                try
-                {
-                    var connection = await web3.Eth.GetBalance.SendRequestAsync(key);
-                    tempBalance = Web3.Convert.FromWei(connection.Value);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Não foi possível pegar o valor da carteira " + key + "\n\nExceção:\n" + ex.Message);
-                }
-                balances.Add((key, tempBalance));
-            }
+            //Read a txt text
+            string text = System.IO.File.ReadAllText("C:\\Users\\joao.silva\\Desktop\\wallets.txt");
+            balances = JsonConvert.DeserializeObject<List<KeyBalance>>(text);
+
+            //foreach (var key in showUser.wallets)
+            //{
+            //    decimal tempBalance = 0;
+            //    try
+            //    {
+            //        var connection = await web3.Eth.GetBalance.SendRequestAsync(key);
+            //        tempBalance = Web3.Convert.FromWei(connection.Value);
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        MessageBox.Show("Não foi possível pegar o valor da carteira " + key + "\n\nExceção:\n" + ex.Message);
+            //    }
+            //    balances.Add((key, tempBalance));
+            //}
 
             dataGrid.ItemsSource = balances;
         }
 
         private void Transfer(object sender, RoutedEventArgs e)
         {
-
+            Transfer transferWindow = new Transfer();
+            transferWindow.ShowDialog();
         }
 
         private void AddWallet(object sender, RoutedEventArgs e)

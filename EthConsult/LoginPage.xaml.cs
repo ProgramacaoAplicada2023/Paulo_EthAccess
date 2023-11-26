@@ -129,6 +129,7 @@ namespace EthConsult
             AppConfigs.loggedUser = tryingUser;
 
             //Muda para a página principal
+            Pages.mainPage.welcomeTxtBlock.Text = "Seja bem vindo, " + tryingUser.name + "!";
             Pages.mainWindow.SwitchPage(Pages.mainPage);
             Pages.mainPage.ShowBalances(AppConfigs.loggedUser);
         }
