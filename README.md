@@ -12,7 +12,7 @@ O projeto envolve a criação de um aplicativo que permitirá aos usuários visu
 A função principal do aplicativo é tornar a rede Ethereum mais acessível, simplificando a interação com ela por meio de uma interface gráfica amigável em C#.
 
 ### Diagrama de classes e relacionamentos
-![CLASS](DiagramaFluxograma/DiagramaClasses.png)
+![CLASS](DiagramaFluxograma/finalDiagram.png)
 
 ### Fluxograma
 ![CLASS](DiagramaFluxograma/Fluxograma.png)
