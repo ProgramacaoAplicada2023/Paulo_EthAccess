@@ -38,7 +38,7 @@ Para criar uma nova conta o usuário deve preencher as informações necessária
 ![CLASS](Tutorial/Cadastro.png)
 
 Na tela do usuário temos a opção de adicionar mais uma wallet ou de transferir saldo entre contas (já cadastradas ou não).
-Nessa tela também temos a disposição a quantidade total de Ethereum por wallet e também algumas informações relevantes sobre a moeda (ETH/USD e Gas Fee estimado).
+Nessa tela também temos a disposição a quantidade total de Ethereum por wallet.
 
 ![CLASS](Tutorial/mainPage.png)
 
