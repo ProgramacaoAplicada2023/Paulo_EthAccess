@@ -41,24 +41,21 @@ namespace EthConsult
         {
             balances.Clear();
 
-            //Read a txt text
-            string text = System.IO.File.ReadAllText("C:\\Users\\joao.silva\\Desktop\\wallets.txt");
-            balances = JsonConvert.DeserializeObject<List<KeyBalance>>(text);
 
-            //foreach (var key in showUser.wallets)
-            //{
-            //    decimal tempBalance = 0;
-            //    try
-            //    {
-            //        var connection = await web3.Eth.GetBalance.SendRequestAsync(key);
-            //        tempBalance = Web3.Convert.FromWei(connection.Value);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show("Não foi possível pegar o valor da carteira " + key + "\n\nExceção:\n" + ex.Message);
-            //    }
-            //    balances.Add((key, tempBalance));
-            //}
+            foreach (var key in showUser.wallets)
+            {
+                decimal tempBalance = 0;
+                try
+                {
+                    var connection = await web3.Eth.GetBalance.SendRequestAsync(key);
+                    tempBalance = Web3.Convert.FromWei(connection.Value);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Não foi possível pegar o valor da carteira " + key + "\n\nExceção:\n" + ex.Message);
+                }
+                balances.Add((key, tempBalance));
+            }
 
             dataGrid.ItemsSource = balances;
         }

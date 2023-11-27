@@ -6,233 +6,34 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ADRaffy.ENSNormalize/0.1.5": {
-        "runtime": {
-          "lib/net5.0/ADRaffy.ENSNormalize.dll": {
-            "assemblyVersion": "0.1.5.0",
-            "fileVersion": "0.1.5.0"
-          }
-        }
-      },
+      "ADRaffy.ENSNormalize/0.1.5": {},
       "ControlzEx/4.4.0": {
         "dependencies": {
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
           "System.Text.Json": "4.7.2"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/ControlzEx.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.4.0.50"
-          }
         }
       },
       "MahApps.Metro/2.4.10": {
         "dependencies": {
           "ControlzEx": "4.4.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/MahApps.Metro.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.4.10.1"
-          }
-        },
-        "resources": {
-          "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll": {
-            "locale": "de"
-          }
         }
       },
-      "MahApps.Metro.IconPacks/4.11.0": {
-        "runtime": {
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.BootstrapIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Codicons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Coolicons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Entypo.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.EvaIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FeatherIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FileIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Fontaudio.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Fontisto.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.ForkAwesome.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Ionicons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.JamIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.MaterialDesign.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.MaterialLight.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Microns.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Modern.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Octicons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.PicolIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.PixelartIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.RPGAwesome.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.RadixIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.RemixIcon.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.SimpleIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Typicons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Unicons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.VaadinIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.WeatherIcons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Zondicons.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          },
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.11.0.12"
-          }
-        }
-      },
-      "MaterialDesignColors/2.1.4": {
-        "runtime": {
-          "lib/net6.0/MaterialDesignColors.dll": {
-            "assemblyVersion": "2.1.4.0",
-            "fileVersion": "2.1.4.0"
-          }
-        }
-      },
+      "MahApps.Metro.IconPacks/4.11.0": {},
+      "MaterialDesignColors/2.1.4": {},
       "MaterialDesignThemes/4.9.0": {
         "dependencies": {
           "MaterialDesignColors": "2.1.4",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
-        },
-        "runtime": {
-          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
-            "assemblyVersion": "4.9.0.0",
-            "fileVersion": "4.9.0.0"
-          }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
-        "runtime": {
-          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.39.4716"
-          }
-        }
-      },
-      "NBitcoin.Secp256k1/1.0.3": {
-        "runtime": {
-          "lib/netcoreapp2.1/NBitcoin.Secp256k1.dll": {
-            "assemblyVersion": "1.0.3.0",
-            "fileVersion": "1.0.3.0"
-          }
-        }
-      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {},
+      "NBitcoin.Secp256k1/1.0.3": {},
       "Nethereum.ABI/4.17.1": {
         "dependencies": {
           "Nethereum.Hex": "4.17.1",
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.ABI.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Accounts/4.17.1": {
@@ -243,12 +44,6 @@
           "Nethereum.Signer.EIP712": "4.17.1",
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Accounts.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.BlockchainProcessing/4.17.1": {
@@ -259,12 +54,6 @@
           "Nethereum.RPC": "4.17.1",
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.BlockchainProcessing.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Contracts/4.17.1": {
@@ -274,47 +63,23 @@
           "Nethereum.Hex": "4.17.1",
           "Nethereum.RPC": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Contracts.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Hex/4.17.1": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Hex.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.JsonRpc.Client/4.17.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.JsonRpc.Client.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.JsonRpc.RpcClient/4.17.1": {
         "dependencies": {
           "Nethereum.JsonRpc.Client": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.JsonRpc.RpcClient.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.KeyStore/4.17.1": {
@@ -322,12 +87,6 @@
           "Nethereum.Hex": "4.17.1",
           "Newtonsoft.Json": "13.0.3",
           "Portable.BouncyCastle": "1.8.2"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.KeyStore.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Merkle.Patricia/4.17.1": {
@@ -335,12 +94,6 @@
           "Nethereum.Model": "4.17.1",
           "Nethereum.RLP": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Merkle.Patricia.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Model/4.17.1": {
@@ -348,24 +101,12 @@
           "Nethereum.RLP": "4.17.1",
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Model.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.RLP/4.17.1": {
         "dependencies": {
           "Nethereum.Hex": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.RLP.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.RPC/4.17.1": {
@@ -376,12 +117,6 @@
           "Nethereum.Model": "4.17.1",
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.RPC.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Signer/4.17.1": {
@@ -393,12 +128,6 @@
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3",
           "Portable.BouncyCastle": "1.8.2"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Signer.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Signer.EIP712/4.17.1": {
@@ -408,12 +137,6 @@
           "Nethereum.Signer": "4.17.1",
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Signer.EIP712.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Util/4.17.1": {
@@ -421,12 +144,6 @@
           "Nethereum.Hex": "4.17.1",
           "Nethereum.RLP": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Util.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
       "Nethereum.Web3/4.17.1": {
@@ -442,38 +159,11 @@
           "Nethereum.Signer": "4.17.1",
           "Nethereum.Util": "4.17.1",
           "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net5.0/Nethereum.Web3.dll": {
-            "assemblyVersion": "4.17.0.0",
-            "fileVersion": "4.17.0.0"
-          }
         }
       },
-      "Newtonsoft.Json/13.0.3": {
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.3.27908"
-          }
-        }
-      },
-      "Portable.BouncyCastle/1.8.2": {
-        "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "assemblyVersion": "1.8.2.0",
-            "fileVersion": "1.8.2.223"
-          }
-        }
-      },
-      "System.Text.Json/4.7.2": {
-        "runtime": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {
-            "assemblyVersion": "4.0.1.2",
-            "fileVersion": "4.700.20.21406"
-          }
-        }
-      }
+      "Newtonsoft.Json/13.0.3": {},
+      "Portable.BouncyCastle/1.8.2": {},
+      "System.Text.Json/4.7.2": {}
     }
   },
   "libraries": {
