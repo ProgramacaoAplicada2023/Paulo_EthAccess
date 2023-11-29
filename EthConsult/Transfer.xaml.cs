@@ -55,6 +55,7 @@ namespace EthConsult
                 if (transaction.Succeeded())
                 {
                     MessageBox.Show("Transação realizada com sucesso!");
+                    this.Close();
                     return;
                 }
 
@@ -62,10 +63,12 @@ namespace EthConsult
                 if (transaction.Failed())
                 {
                     MessageBox.Show("Erro na hora da transferência.\nHash:" + transaction.BlockHash);
+                    this.Close();
                     return;
                 }
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Não foi possível fazer a transferência. Confira os dados e tente novamente.\n\nExceção lançada:\n" + ex.Message);
             }
@@ -73,7 +76,14 @@ namespace EthConsult
 
         private async void TransferEth(object sender, RoutedEventArgs e)
         {
-            TransferEth(cbxConta.SelectedItem.ToString(), txtConta.Text, txtValor.Text);
+            try
+            {
+                TransferEth(cbxConta.SelectedItem.ToString(), txtConta.Text, txtValor.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Confira os valores e tente novamente");
+            }
         }
     }
 }

@@ -241,3 +241,5 @@ C:\Users\joao.silva\source\repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthCons
 C:\Users\joao.silva\source\repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\bin\Debug\net6.0-windows\Nethereum.Web3.dll
 C:\Users\joao.silva\source\repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
 C:\Users\joao.silva\source\repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\Transfer.baml
+C:\Users\showd\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\Transfer.g.cs
+C:\Users\showd\Source\Repos\ProgramacaoAplicada2023\Paulo_EthAccess\EthConsult\obj\Debug\net6.0-windows\Transfer.baml

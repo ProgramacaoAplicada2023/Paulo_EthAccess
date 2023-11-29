@@ -10,6 +10,19 @@
 //------------------------------------------------------------------------------
 
 using EthConsult;
+using MahApps.Metro;
+using MahApps.Metro.Accessibility;
+using MahApps.Metro.Actions;
+using MahApps.Metro.Automation.Peers;
+using MahApps.Metro.Behaviors;
+using MahApps.Metro.Controls;
+using MahApps.Metro.Controls.Dialogs;
+using MahApps.Metro.Converters;
+using MahApps.Metro.IconPacks;
+using MahApps.Metro.IconPacks.Converter;
+using MahApps.Metro.Markup;
+using MahApps.Metro.Theming;
+using MahApps.Metro.ValueBoxes;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -61,7 +74,7 @@ namespace EthConsult {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EthConsult;V1.0.0.0;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EthConsult;component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

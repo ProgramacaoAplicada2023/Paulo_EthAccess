@@ -41,7 +41,6 @@ namespace EthConsult
         {
             balances.Clear();
 
-
             foreach (var key in showUser.wallets)
             {
                 decimal tempBalance = 0;
@@ -54,7 +53,7 @@ namespace EthConsult
                 {
                     MessageBox.Show("Não foi possível pegar o valor da carteira " + key + "\n\nExceção:\n" + ex.Message);
                 }
-                balances.Add((key, tempBalance));
+                balances.Add(new KeyBalance { Key = key, Balance = tempBalance });
             }
 
             dataGrid.ItemsSource = balances;
