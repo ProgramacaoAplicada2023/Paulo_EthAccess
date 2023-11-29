@@ -27,6 +27,10 @@ A linguagem visual utilizada foi o XAML.
 
 3 - Pode ser que na primeira utilização seja necessário instalar o .NET Framework, caso sim instale-o e execute o programa novamente.
 
+*Há duas versões compiladas do programa no arquivo Releases.zip.
+A "Release Teste" não está conectado a blockchain, mostra valores ficticios para a tabela de wallets e também não realiza transações verdadeiras, todas darão sucesso!
+A "Release Ofc está conectada a blockchain, mostra os valores reais das carteiras e realiza transações verdadeiras, cuidado ao utilizar!
+
 ### Tutorial de Utilização
 Na primeira página o usuáro deve fazer o login caso já tenha um ou selecionar a opção de criar uma nova conta.
 O login só será aceito caso haja um cadastro válido na base de dados.
